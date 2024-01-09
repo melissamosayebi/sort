@@ -10,9 +10,10 @@ for i in range(len(a)):
             min = min
         else:
             min = a[i+j]
-        j+=1
         print(f"j : {j}")
-    a[i] , min = min , a[i]
-    print(f"i : {i}")
+        a[i] , min = min , a[i]
+        j += 1
+        #print(f"j : {j}")
+    #print(f"i : {i}")
     i+=1
-    #print(i,min,a,j)
+    print(i,min,a,j)
